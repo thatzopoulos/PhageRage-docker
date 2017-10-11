@@ -24,7 +24,7 @@ To pull up phageRage help for parameters while in the docker container:
 python3 phage-rage.py -h
 ```
 
-For documentation using phageRage, refer to [here](https://github.com/jbren/phage-rage).
+For documentation using phageRage, refer to [here](https://github.com/jlbren/phage-rage).
 Note: 'phageRageDockerOutputFolder' (the folder where Docker expects output to be written) must be the same folder specified when running phage-rage.py, the -o option.
 
 ### Prerequisites
