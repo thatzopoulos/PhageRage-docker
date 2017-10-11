@@ -6,7 +6,7 @@ Advances in sequencing technology provide the opportunity to explore viral diver
 
 Clone project:
 ```
-git clone github.com/thatzopoulos/PhageRage-docker
+git clone github.com/thatzopoulos/PhageRage-docker.git
 ```
 
 Move files that you want to run to inputFiles (raw read files, .fastq) and files/folders used for the homology detection tool to the all_gbk folder prior to building the docker image.
