@@ -4,9 +4,12 @@ Advances in sequencing technology provide the opportunity to explore viral diver
 
 ## Getting Started
 
-Clone Project
+Clone project:
+```
+git clone github.com/thatzopoulos/PhageRage-docker
+```
 
-Move files that you want to run to inputFiles and all_gbk folders prior to building the docker image
+Move files that you want to run to inputFiles (raw read files, .fastq) and files/folders used for the homology detection tool to the all_gbk folder prior to building the docker image.
 
 From within the project folder run:
 ```python
@@ -20,6 +23,9 @@ To pull up phageRage help for parameters while in the docker container:
 ```python
 python3 phage-rage.py -h
 ```
+
+For documentation using phageRage, refer to [here](github.com/jbren/phage-rage).
+Note: 'phageRageDockerOutputFolder' (the folder where Docker expects output to be written) must be the same folder specified when running phage-rage.py, the -o option.
 
 ### Prerequisites
 
