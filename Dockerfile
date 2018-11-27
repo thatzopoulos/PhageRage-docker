@@ -30,7 +30,7 @@ ADD requirements.txt requirements.txt
 RUN python3 -m pip install biopython
 
 #Get Phage Rage
-RUN git clone https://github.com/jlbren/phage-rage
+RUN git https://github.com/thatzopoulos/phage-rage
 RUN mv phage-rage/* /
 
 #GETORF Setup
